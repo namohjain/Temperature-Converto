@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+    background-image: linear-gradient(to right, rgba(187, 102, 102, 0), rgb(112, 218, 46));
+}
+
+h1 {
+    font-family: 'Mate SC', serif;
+    font-weight: bolder;
+    color: rgb(15, 0, 12);
+    padding: 10px;
+    font-size: 45px;
+}
+
+.temp1 {
+    border-color: rgb(10, 10, 10);
+    border-width: 5x;
+    border-style: solid;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgb(112, 218, 46);
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+
+.temp2 {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.temp3 {
+    margin-top: 30px;
+}
+
+.paragraph {
+    margin: 0%;
+    padding: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+input {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(13, 13, 14);
+    border-width: 3px;
+    font-size: 1em;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+select {
+    background-color: rgba(112, 217, 80, 0.699);
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: 3px rgb(9, 83, 30);
+    outline: none;
+    font-size: 1.2em;
+}
+
+option {
+    border-width: 2px;
+    border-radius: 8px;
+    background-color: rgba(17, 185, 151, 0.699);
+}
+
+.btn {
+    margin: 20px;
+}
+
+button {
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px;
+    font-size: 2em;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgba(17, 185, 151, 0.699);
+    border-radius: 50px;
+    border: none;
+    border-style: solid;
+}
+
+.btn :hover {
+    background-color: rgb(176, 85, 228);
+    cursor: pointer;
+}
+
+.result>span {
+    margin: 0%;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+}
